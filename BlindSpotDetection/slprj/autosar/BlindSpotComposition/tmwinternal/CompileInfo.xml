@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2024b http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229 http://schema.mathworks.com/mf0/sltp_mm/R2024b_202402211119">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="6e5d818c-cc36-45fb-9bb7-ca64a0eb9854">
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="d3475391-f7af-47cd-9c57-a55c55a7a853">
+      <modelName>BlindSpotComposition</modelName>
+      <modelPath>BlindSpotComposition</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="2f9dc2a9-ea0f-427c-8b75-e4eca5d12f56">
+      <hasAccelReference>true</hasAccelReference>
+      <modelName>BlindSpotLogicSWC</modelName>
+      <modelPath>BlindSpotComposition:BlindSpotLogicSWC</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="309c6bf6-9c20-4000-bda4-5a644d528491">
+      <hasAccelReference>true</hasAccelReference>
+      <modelName>RadarSensorSWC</modelName>
+      <modelPath>BlindSpotComposition:RadarSensorSWC</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="3b93cd6b-5298-4605-b311-fb71e7bed144">
+      <hasAccelReference>true</hasAccelReference>
+      <modelName>VehicleStatusSWC</modelName>
+      <modelPath>BlindSpotComposition:VehicleStatusSWC</modelPath>
+    </childModelRefInfo>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="2459efbb-d01d-4830-b317-3e5c1fcb621b">
+      <hasAccelReference>true</hasAccelReference>
+      <modelName>WarningDisplaySWC</modelName>
+      <modelPath>BlindSpotComposition:WarningDisplaySWC</modelPath>
+    </childModelRefInfo>
+    <compDerivCacheNeedsReset>false</compDerivCacheNeedsReset>
+    <compZcCacheNeedsReset>false</compZcCacheNeedsReset>
+    <compiledTFinal>inf</compiledTFinal>
+    <dataDictionary>BlindSpotDataTypes.sldd</dataDictionary>
+    <dataDictionarySet>BlindSpotDataTypes.sldd</dataDictionarySet>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="33bb159c-10ec-4555-b47f-f49b4a2ecb2f">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="9d88dd33-9b80-4c24-8493-4cf1141086a1">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>BlindSpotDataTypes.sldd</sourceName>
+        <type>DataDictionary</type>
+      </dataSources>
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="afafd11a-3b7e-41f5-9c22-415a066497e9">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>BlindSpotComposition</modelName>
+    </dataSourceInfo>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="d2994cf7-9632-4cad-bd60-d2db1122f0c1">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="071995a6-c18a-4c42-af57-c93d5ed2f5f2">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>BlindSpotDataTypes.sldd</sourceName>
+        <type>DataDictionary</type>
+      </dataSources>
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="c99e90d8-faff-4239-afc1-c7e85fe26e77">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>BlindSpotLogicSWC</modelName>
+    </dataSourceInfo>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="f2692cb3-b22d-4a18-ac43-305cacac1ab0">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="a64baf52-51c3-4116-8368-74c6aa6ac821">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="268a1971-fa8f-4d78-845f-d1e12ecd5eea">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>BlindSpotDataTypes.sldd</sourceName>
+        <type>DataDictionary</type>
+      </dataSources>
+      <modelName>RadarSensorSWC</modelName>
+    </dataSourceInfo>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="999e8bf0-9a61-4c8e-be47-f35079cff8e4">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="d58a04a9-3f37-4612-b5a0-bf72552f6610">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>BlindSpotDataTypes.sldd</sourceName>
+        <type>DataDictionary</type>
+      </dataSources>
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="a46ffc91-7f43-4f1a-bc10-b76cc70d7810">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>VehicleStatusSWC</modelName>
+    </dataSourceInfo>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="ab34a8cd-2605-4fde-87a5-4078a5b792f2">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="30324ca1-f59e-4b17-9cc9-5e8768466783">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>BlindSpotDataTypes.sldd</sourceName>
+        <type>DataDictionary</type>
+      </dataSources>
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="3b8ec1f3-a7bf-4f43-ad33-71f2c9363f72">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>WarningDisplaySWC</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fundamentalSampleTimePeriod>.1</fundamentalSampleTimePeriod>
+    <globalVariables>#BlindSpotDetectedType#BlindSpotDataTypes.sldd#</globalVariables>
+    <globalVariables>#BlindSpotWarningType#BlindSpotDataTypes.sldd#</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.1</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>323</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="f0666a02-8bf6-461b-8cac-4ada0d2247b9">
+      <defaultValue>NONE</defaultValue>
+      <enumName>TurnSignalStatusType</enumName>
+      <labels>NONE</labels>
+      <labels>LEFT</labels>
+      <labels>RIGHT</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;f8259a83-82ee-442e-8cfa-ea39b3fa1cfb&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;BlindSpotComposition&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;2b91e6f6-a18c-4f8b-a2df-2afb0486d40c&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;7619be6e-be76-4b82-aff7-6d1edac88c6a&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.1&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a93b86a4-1ead-4bc2-9d37-409a0e47bd71&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.1&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;BlindSpotComposition::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a93b86a4-1ead-4bc2-9d37-409a0e47bd71&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;BlindSpotComposition::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e54b9be6-86c9-4ff0-adce-62ad930d837c&quot;&gt;
+            &lt;period&gt;.1&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;50dbd281-b8e4-4bcb-a266-80f656234b56&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;BlindSpotComposition::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;db157eb1-d02b-4fe8-bb24-10f7c961839e&quot;&gt;
+            &lt;period&gt;.1&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;81e4d187-03d3-477b-9efb-db00107da39a&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;cfe602f1-67ee-4175-b00b-cc10c120fbb4&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;6ecf0df6-fd54-4dbf-8e5e-4907693874c6&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;542043ee-9d5e-4490-abc2-7a3b36dc25e5&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;a6cb9606-18a5-4d11-afb7-f81f6ec14955&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;6c5d66a3-df1c-4bfe-bb69-0e629a59c020&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;dbb0a92f-7d88-4f24-b3d9-6e3abc45b203&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;BlindSpotComposition::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;9b88bc64-a595-4c4e-a416-ad2d990fe5b0&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;e154388b-18cc-4365-a2e2-200e22584e47&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;BlindSpotComposition::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;a0fef4ce-360f-45bb-a74d-7c90d8e6cff3&quot;&gt;
+            &lt;period&gt;.1&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;BlindSpotComposition::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;BlindSpotComposition::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;3461f338-30d2-41fe-8183-c21ebf321633&quot;&gt;
+        &lt;clockIdentifier&gt;BlindSpotComposition::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;28ddf167-9f28-4cf8-bf2c-fd49f72c8a95&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <userSpecifiedFixedStepSize>.1</userSpecifiedFixedStepSize>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="26abccd8-90fa-4cb3-a9fd-a41c6f89da6e"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="53953a5b-80a6-4a14-b026-524cbfc667f0"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="c63aabca-8cb8-461b-a9a4-49891fed4fa3">
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="3cb8b9f9-4c2e-4c60-9071-695d5d66023b">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BlindSpotComposition/Model</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="19ac0b3a-8b00-431e-8a90-88dc876fc80e">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BlindSpotComposition/Model1</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="70c23ca7-eb8f-4288-937e-27d61fdec89c">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BlindSpotComposition/Model2</modelBlockPath>
+      </entries>
+      <entries type="ModelRefInfoRepo.CompiledVariantInfo" uuid="3e4d78f0-b3c5-44da-81d8-bd8b635e3807">
+        <IsActive>true</IsActive>
+        <IsInCodegen>true</IsInCodegen>
+        <modelBlockPath>BlindSpotComposition/Model3</modelBlockPath>
+      </entries>
+    </compiledVariantInfos>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="e9cffa09-be07-4ee3-98de-41343df3374b">
+      <LUTObjectStructOrderEvenSpacing>1</LUTObjectStructOrderEvenSpacing>
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.1</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="a05ef06a-a3ef-430e-af86-649edeeb23ef">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="60513478-8f79-47b1-af7b-adb8697643eb"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="993a4529-2806-45b3-b0be-fcae92cf3557"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="322253d5-7eef-46dd-ba99-ff1135aa8762"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="d37e1d55-68b3-463f-8af9-95b742230e9d"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="421ece46-d575-4b5a-988b-319aa186091b"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="0578fe8f-e380-4d84-ab63-2711def7dd63"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="0f0d5e3b-117b-4f0f-806e-7e1b96215dfd"/>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="e2af6117-b450-4433-b15a-14aafd4e2e63"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="8860c370-e427-4a37-980c-f27fac7691d7">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="060bf89c-7a15-4bd1-8e5d-5fe875c4768b"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="1c99218a-00d2-453f-8db9-82581f544e41"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="d58c5604-8eae-49e0-b145-7d4c20b15512"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="10b8cdd5-5a32-4f05-845a-1429b09e9f1d"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="f3980fc8-62f2-4ba6-8b87-04e85ea618b0"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="4992d265-afff-4f33-9eb5-56108e399c69">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="1e3be539-f2f4-446c-a86c-d84a604be668">
+        <p_Name>BlindSpotComposition</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="fcf50664-d7e2-474e-b615-64ede9b187e4">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="3a0f67d2-82aa-48d6-b76a-15fd63e12e81">
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <unusedTaskIds>1</unusedTaskIds>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="9c8afa01-7904-44a5-beda-7e84f5c44f78"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="f863d821-6993-45aa-9d9a-950988c23faf">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="676f5d44-17b1-40f7-9600-8a6779740a43"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="160fbf1d-2b81-47fc-8811-30e894efda79">
+        <context type="sltp.mm.core.Context" uuid="3a0f67d2-82aa-48d6-b76a-15fd63e12e81"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="d0146422-4f71-4ce5-aed8-32e912daf096">
+          <tasks type="sltp.mm.core.Task" uuid="daa47db8-c159-40e4-b1e0-a03fdc9ffce6">
+            <context type="sltp.mm.core.Context" uuid="3a0f67d2-82aa-48d6-b76a-15fd63e12e81"/>
+            <explicit>false</explicit>
+            <id>2</id>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="4549eea5-3deb-44c0-8355-c558183684e3">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.10</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.1</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="b092e665-dac8-48e4-98b8-b4848716a811"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="3342a29c-021e-4345-b268-0682c3a5f98b">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="78fdfae7-a4e7-4bbb-9220-3bb02b41b9a4">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="8ec8de7c-b51b-4fee-9b7d-a59221305a08">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="22048d3c-e939-4154-a783-df2cb123c5de">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="2274f2d9-744d-4619-9cff-f6d9e8590e81"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="2274f2d9-744d-4619-9cff-f6d9e8590e81">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="22048d3c-e939-4154-a783-df2cb123c5de"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>BlindSpotComposition::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="12457005-d60e-4158-9d35-c9e87402b9c1"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

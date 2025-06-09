@@ -1,0 +1,10 @@
+﻿-ID:\Dev\UNIOS-Software-Architecture-in-Safety-Critical-Control-Systems\BlindSpotDetection
+-ID:\Dev\UNIOS-Software-Architecture-in-Safety-Critical-Control-Systems\BlindSpotDetection\slprj\autosar\_sharedutils
+-I"C:\Program Files\MATLAB\R2024b\toolbox\coder\autosar\rte"
+-I"C:\Program Files\MATLAB\R2024b\toolbox\coder\autosar\rte\lst"
+-ID:\Dev\UNIOS-Software-Architecture-in-Safety-Critical-Control-Systems\BlindSpotDetection\BlindSpotComposition_autosar_rtw\stub
+-I"C:\Program Files\MATLAB\R2024b\extern\include"
+-I"C:\Program Files\MATLAB\R2024b\simulink\include"
+-I"C:\Program Files\MATLAB\R2024b\rtw\c\src"
+-I"C:\Program Files\MATLAB\R2024b\rtw\c\src\ext_mode\common"
+-I"C:\Program Files\MATLAB\R2024b\rtw\c\ert"

@@ -1,0 +1,6 @@
+#D:\Dev\UNIOS-Software-Architecture-in-Safety-Critical-Control-Systems\BlindSpotDetection\RadarSensorSWC_autosar_rtw\stub\Rte_RadarSensorSWC.h
+#this file contains the list of RTE methods that the profiling must filter out
+-Rte_Write_LeftBlindSpotDetected_detected
+-Rte_Invalidate_LeftBlindSpotDetected_detected
+-Rte_Write_RightBlindSpotDetected_detected
+-Rte_Invalidate_RightBlindSpotDetected_detected

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model BlindSpotComposition
+Model version                : 1.9
+Simulink Coder version       : Simulink Coder 24.2 (R2024b) 21-Jun-2024
+XML source code generated on : Mon Jun 09 18:52:57 2025
+Model Checksum               : 2125482803 1383934285 231553453 2812379173
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00051.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE>
+            <SHORT-NAME>Components</SHORT-NAME>
+            <ELEMENTS>
+                <APPLICATION-SW-COMPONENT-TYPE UUID="a194cc1c-26a0-5c90-550b-be71fe906f47">
+                    <SHORT-NAME>BlindSpotComposition</SHORT-NAME>
+                    <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR UUID="3b78209c-ecdd-529d-0554-bba391fdeacb">
+                            <SHORT-NAME>BlindSpotComposition_IB</SHORT-NAME>
+                            <EVENTS>
+                                <TIMING-EVENT UUID="4caefcf7-f7b9-52c8-2db4-f11d298a6832">
+                                    <SHORT-NAME>Event_BlindSpotComposition_Step</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/Components/BlindSpotComposition/BlindSpotComposition_IB/BlindSpotComposition_Step</START-ON-EVENT-REF>
+                                    <PERIOD>0.1</PERIOD>
+                                </TIMING-EVENT>
+                            </EVENTS>
+                            <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
+                            <RUNNABLES>
+                                <RUNNABLE-ENTITY UUID="8af9ed5e-f8d6-5d74-2167-f2d10951069a">
+                                    <SHORT-NAME>BlindSpotComposition_Init</SHORT-NAME>
+                                    <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                    <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                    <SYMBOL>BlindSpotComposition_Init</SYMBOL>
+                                </RUNNABLE-ENTITY>
+                                <RUNNABLE-ENTITY UUID="8cabe6c9-2839-58f5-f6f5-978a26dfdd10">
+                                    <SHORT-NAME>BlindSpotComposition_Step</SHORT-NAME>
+                                    <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                    <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                    <SYMBOL>BlindSpotComposition_Step</SYMBOL>
+                                </RUNNABLE-ENTITY>
+                            </RUNNABLES>
+                            <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+                        </SWC-INTERNAL-BEHAVIOR>
+                    </INTERNAL-BEHAVIORS>
+                </APPLICATION-SW-COMPONENT-TYPE>
+            </ELEMENTS>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>
